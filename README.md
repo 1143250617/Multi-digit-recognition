@@ -13,7 +13,7 @@
      torchvision 0.11.3
 #3.示例
 ![](AI多数字识别/images/示例1.png) 
-
+![](AI多数字识别/images/github不允许上传超过20M的文件，所以分成多份，正常解压就好.png) 
 
 
 #4.使用
