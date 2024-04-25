@@ -16,7 +16,7 @@ def 仅支持五位整数(path_to_checkpoint_file, path_to_input_image):
             transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
         ])
 
-        image = Image.open(path_to_input_image)
+        image = Image.open(path_to_input_image) # 如果用  im = pyautogui.screenshot(....)  传递图像注释掉这行
         image = image.convert('RGB')
         image = transform(image)
         images = image.unsqueeze(dim=0).cuda()
@@ -38,7 +38,8 @@ if __name__ == '__main__':
    print('length:', length)
    print('digits:', a,b,c,d,e)
    print('10代表空')
-
+   #     im = pyautogui.screenshot(region=(46, 41, 46, 51)) 
+   #     length, a, b, c, d, e = 仅支持五位整数('训练后得到的模型\\model-95000.pth', im) 
 
 
 
