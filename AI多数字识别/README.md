@@ -36,12 +36,11 @@
 
 # 6.捐赠 （如果项目有帮助到您，可以选择捐赠一些费用用于AI数字识别的后续版本维护，本项目长期维护）
 
-[comment]: <> (![]&#40;images/01.jfif&#41; )
+![](images/01.jfif) 
 
-[comment]: <> (![]&#40;images/02.jfif&#41;)
+![](images/02.jfif)
 
-![](AI多数字识别/images/01.jfif) 
-![](AI多数字识别/images/02.jfif)
+
 
 
 
